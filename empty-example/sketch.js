@@ -20,6 +20,6 @@ function keyTyped() {
   s = second();
 
   if (key === 's') {
-    saveCanvas('photo' + d + h + m + s, 'png');
+    saveCanvas('img' + d + h + m + s, 'png');
   }
 }
